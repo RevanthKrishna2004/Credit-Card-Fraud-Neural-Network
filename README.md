@@ -13,7 +13,13 @@ The neural network currently has three layers. The first and second layers have 
 
 
 
-I have also attached my own model made from this notebook, called ccf_model_one.keras. It has an accuracy of 99.63%.
+I have attached two models, one that has been trained with 10 iterations (ccf_model_one.keras), and one that has been trained with 100 iterations (ccf_model_hundred.keras).
+
+The ccf_model_one.keras has an accuracy of 99.6% and an F1 score of 84.6%.
+The ccf_model_hundred.keras has an accuracy of 99.7% and an F1 score of 98.6%.
+
+Below is the confusion matrix of the ccf_model_hundred.keras model.
+![alt text](https://github.com/RevanthKrishna2004/Credit-Card-Fraud-Neural-Network/blob/main/table-chart.png?raw=true)
 
 This graph shows the total loss over ten training iterations for the model I have included. The notebook also contains a block of code to make this graph.
 
